@@ -1,3 +1,22 @@
+/*****************************************************************************
+*                    
+*  Author:           Zach Dillion
+*  Email:            zrdillion0327@my.msutexas.edu
+*  Label:            P02
+*  Title:            Linear Search
+*  Course:           CMPS 3013
+*  Semester:         Spring 2024
+* 
+*  Description:
+*        Implements functions to load a json object passed into it using the json header created by nlohmann 
+* 
+*  Usage:
+*        - Include as a header in main
+*        - Make a call to one of the functions using the correct signature
+* 
+*  Files:
+*        - json.hpp :header file for the json class
+*****************************************************************************/
 #include "./headers/json.hpp" // Make sure this points to the correct path of json.hpp
 //#include "./headers/timer.hpp"
 #include <fstream>
@@ -20,9 +39,6 @@ void saveWords(json j) {
 
 json loadJsonFile(string filePath) {
 
-    //Timer T;   // create a timer
-    //T.Start(); // start it
-
     // Load your JSON object as shown in previous examples
     ifstream fileStream(filePath);
     string partialKey = " ";
@@ -35,18 +51,6 @@ json loadJsonFile(string filePath) {
         cerr << "Failed to open file: " << filePath << endl;
         return 1;
     }
-
-    //T.End(); // end the current timer
-    //printf("Nanoseconds: %.17f\n", (double)T.NanoSeconds() / 1000000000);
-
-    // The substring you are looking for in the keys
-    //if (argc == 1)
-        //partialKey = "ste";
-    //else
-        //partialKey = argv[1];
-
-    //Iterate over all key-value pairs
     
-
     return myJson;
 }
