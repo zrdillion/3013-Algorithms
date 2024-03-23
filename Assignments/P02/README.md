@@ -8,4 +8,6 @@ Once this singular word has been found, and the user has pressed the "Enter" key
 
 ### Files
 
-| # | File | Description |
+|   #   | File     | Description    |
+| :---: | -------- | -------------- |
+
