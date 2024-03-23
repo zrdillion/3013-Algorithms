@@ -8,6 +8,8 @@ Once this singular word has been found, and the user has pressed the "Enter" key
 
 ### Files
 
-|   #   | File     | Description    |
-| :---: | -------- | -------------- |
-
+|   #   | File     | Description         |
+| :---: | -------- | ------------------- |
+|   1   | main.cpp | Main driver program |
+|   2   | loadJsonEx.hpp | Header used to load the json file in main |
+|   3   | console.hpp | Header used for formatting 
